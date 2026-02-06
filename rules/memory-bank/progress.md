@@ -13,3 +13,6 @@
 - **Refactoring**: Выполнен рефакторинг системы адаптеров. Логика вынесена в `hsm/src/hyper_stack_manager/adapters/`.
 - **Architecture**: Реализована динамическая загрузка адаптеров через Python Entry Points (`hsm.package_managers`, `hsm.container_engines`).
 - **Documentation**: Обновлен `techContext.md` с рекомендацией по установке в режиме редактирования (`uv tool install -e`).
+- **Testing**: Проведено исследование лучших практик тестирования CLI на 2026 год.
+- **Testing**: Создана стратегия тестирования ([`hsm/docs/technical_design/11_testing_strategy.md`](hsm/docs/technical_design/11_testing_strategy.md:1)).
+- **Testing**: Реализован первый уровень автоматического тестирования (10 тестов на базе `CliRunner`).
