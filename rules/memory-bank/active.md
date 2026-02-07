@@ -18,9 +18,9 @@
 ## Активные задачи
 1. **Реализация Service Runtimes (ADR-002)**:
    - План: [tasks_descriptions/plans/service_runtimes_ves.md](../../../tasks_descriptions/plans/service_runtimes_ves.md)
-   - Задача 1 (Models): [tasks_descriptions/tasks/refactor_models_and_registry.md](../../../tasks_descriptions/tasks/refactor_models_and_registry.md)
-   - Задача 2 (UV Adapter): [tasks_descriptions/tasks/implement_uv_runtime_adapter.md](../../../tasks_descriptions/tasks/implement_uv_runtime_adapter.md)
-   - Задача 3 (Sync Engine): [tasks_descriptions/tasks/update_sync_engine_for_ves.md](../../../tasks_descriptions/tasks/update_sync_engine_for_ves.md)
+   - [x] Задача 1 (Models): [tasks_descriptions/tasks/refactor_models_and_registry.md](../../../tasks_descriptions/tasks/refactor_models_and_registry.md)
+   - [ ] Задача 2 (UV Adapter): [tasks_descriptions/tasks/implement_uv_runtime_adapter.md](../../../tasks_descriptions/tasks/implement_uv_runtime_adapter.md)
+   - [ ] Задача 3 (Sync Engine): [tasks_descriptions/tasks/update_sync_engine_for_ves.md](../../../tasks_descriptions/tasks/update_sync_engine_for_ves.md)
 2. **Тестирование и Валидация**:
    - Задача (Tests Migration): [tasks_descriptions/tasks/migrate_tests_to_ves.md](../../../tasks_descriptions/tasks/migrate_tests_to_ves.md)
 3. **Документация**:
