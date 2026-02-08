@@ -13,6 +13,6 @@
 - **CLI**: Интерфейс на базе `typer` с поддержкой автодополнения и интерактивного режима.
 
 ## Структура данных
-- **LibraryManifest**: Описание Python-библиотеки (бывший `PackageManifest`).
-- **ServiceManifest**: Описание автономного сервиса с поддержкой нескольких рантаймов (бывший `ContainerManifest`). Поддерживает `docker`, `uv`, `pixi` и др. через `DeploymentProfile`.
-- **RegistryGroup**: Универсальное описание группы выбора (`library_group` или `service_group`).
+- **LibraryManifest**: Описание Python-библиотеки. Содержит источники (`sources`) для `dev`/`prod` и зависимости.
+- **ServiceManifest**: Описание автономного сервиса. Поддерживает гибридные рантаймы (`docker`, `uv`, `podman`) через `DeploymentProfile`. Включает поддержку собственных зависимостей и проброс ENV.
+- **RegistryGroup**: Универсальное описание группы выбора (`library_group` или `service_group`) со стратегиями 1-of-N или M-of-N.
