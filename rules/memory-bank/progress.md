@@ -56,3 +56,15 @@
 - **Architecture**: Упрощена логика режимов (modes) — теперь это атомарные намерения на уровне компонентов.
 - **Documentation**: Создан полный обзор системы тестирования `tests/TESTS_OVERVIEW.md`.
 - **Documentation**: Обновлены технические дизайны по High-Fidelity тестированию и стратегии.
+
+### 2026-02-22
+- **Features**: Реализована поддержка `env_file` для сервисов на уровне моделей (`ServiceManifest`/`Source`), CLI реестра и SyncEngine.
+- **Features**: Добавлена материализация `.env.<service>` и проброс `env_file` в ветки `docker`/`uv` с единой логикой резолвинга.
+- **Features**: Включен fail-fast контроль конфликтов ENV-источников (`env_file`, `manifest.env`, `source.env`, `implies params`) с диагностикой источников.
+- **CLI**: Команда `hsm registry service add` расширена опциями `--env-file`, `--prod-env-file`, `--dev-env-file`.
+- **CLI**: Для `hsm library init` и `hsm service init` реализован флаг `--git-init`.
+- **Core**: Добавлен `HSMCore._init_git(...)` с fail-fast обработкой ошибок (`git` binary missing / `git init` failed).
+- **Testing**: Реализованы сценарии `ENV-FAIL-001..006`, `ENV-HF-001..004`, `ENV-CLI-001`, `GIT-CLI-001`, `GIT-HF-*`, `GIT-FAIL-*`.
+- **Testing**: Добавлен файл `tests/test_project_init_git.py` и набор env-ассетов в `tests/assets/env_files/`.
+- **Testing**: Обновлен `tests/TESTS_OVERVIEW.md` по новым сценариям active-задач.
+- **Quality**: Подтверждено полное прохождение тестов: `uv run pytest tests -q` → `46 passed`.
