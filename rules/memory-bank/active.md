@@ -15,9 +15,8 @@
 - Опорный контекст: [`hsm_active_tasks_test_design.md`](tasks_descriptions/plans/hsm_active_tasks_test_design.md).
 
 ## Активные задачи
-- [x] Добавить поддержку `env_file` для сервисов HSM ([`add_env_file_support_for_hsm_services.md`](tasks_descriptions/tasks/add_env_file_support_for_hsm_services.md))
-- [x] Добавить `--git-init` при инициализации компонентов ([`add_git_init_to_component_init.md`](tasks_descriptions/tasks/add_git_init_to_component_init.md))
-- [x] Реализовать тесты по плану Hybrid TDD ([`hsm_active_tasks_test_design.md`](tasks_descriptions/plans/hsm_active_tasks_test_design.md))
+- [-] Реализовать Environment Inspector ([`implement_environment_inspector.md`](tasks_descriptions/tasks/implement_environment_inspector.md))
+- [ ] Реализовать Pixi адаптер ([`implement_pixi_adapter.md`](tasks_descriptions/tasks/implement_pixi_adapter.md))
 
 ## Next Up (Level 3)
 - [ ] Реализовать Environment Inspector ([`implement_environment_inspector.md`](tasks_descriptions/tasks/implement_environment_inspector.md))
