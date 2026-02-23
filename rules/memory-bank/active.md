@@ -21,6 +21,7 @@
 ## Next Up (Level 3)
 - [ ] Реализовать Environment Inspector ([`implement_environment_inspector.md`](tasks_descriptions/tasks/implement_environment_inspector.md))
 - [ ] Реализовать Pixi адаптер ([`implement_pixi_adapter.md`](tasks_descriptions/tasks/implement_pixi_adapter.md))
+- [ ] Автоматическое добавление локальных путей моделей в `.gitignore` при регистрации ([`auto_ignore_local_models.md`](tasks_descriptions/tasks/auto_ignore_local_models.md))
 
 ## Открытые вопросы
 - Нет.
